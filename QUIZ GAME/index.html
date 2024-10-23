@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>QUIZ GAME</title>
+</head>
+<body>
+
+    <div class="main">
+        <div id ="box">
+            <h2 id="quesBox"> This is my dummy question</h2>
+            <div class="row">
+                <label for="">a) Option 1</label>
+                <input class="options" id="" type="radio" value="a" name="option"/>
+            </div>
+            <div class="row">
+                <label for="">b) Option 2</label>
+                <input class="options" id="option2" type="radio" value="b" name="option"/>
+            </div>
+            <div class="row">
+                <label for="">c) Option 3</label>
+                <input class="options" id="option3" type="radio" value="c" name="option"/>
+            </div>
+            <div class="row">
+                <label for="">d) Option 4</label>
+                <input class="options" id="option4" type="radio" value="d" name="option"/>
+            </div>
+            <button class="btn" onclick="submitQuiz()">
+                Submit
+            </button>
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
